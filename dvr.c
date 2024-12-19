@@ -8,7 +8,7 @@ int main()
 {
     int dm[20][20], no;
     printf("Enter no of nodes.");
-   scanf("%d", &no);
+    scanf("%d", &no);
     printf("Enter the distance matrix:\n");
     for (int i = 0; i < no; i++) {
         for (int j = 0; j < no; j++) {
